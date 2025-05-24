@@ -6,9 +6,9 @@ load_dotenv(".env")
 
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "8108394845:AAF0YFsdZEZCDHBW-v4R5EIuea-1DcTwqxo")
-API_ID = int(os.environ.get("API_ID", "21140864"))
-API_HASH = os.environ.get("API_HASH", "9dbae6c11aa0a1c06da19d52deada7b9")
-MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://Moshi:<db_password>@cluster0.fnu5ste.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+API_ID = int(os.environ.get("API_ID", "25109413"))
+API_HASH = os.environ.get("API_HASH", "2c9ce1db09ed4725cae4a1fa3a21b5e2")
+MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://vubot89:userbotV2@cluster0.kfzruyx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 ADMINS = [int(x) for x in (os.environ.get("ADMINS", "1371054078").split())]
 MEMBER = [int(x) for x in (os.environ.get("MEMBER", "160").split())]
 LOG_GRP = int(os.environ.get("LOG_GRP", "-1002639054633"))
